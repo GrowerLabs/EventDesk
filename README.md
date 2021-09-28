@@ -22,7 +22,7 @@ It is the simplest gateway to connect Organizers and Participants.
 
 
 
-to know more visit website: http://event-desk.herokuapp.com/
+<!-- to know more visit website: http://event-desk.herokuapp.com/ -->
 ## Features
 
 #### Host POV
