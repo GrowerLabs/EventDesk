@@ -47,6 +47,50 @@ It is the simplest gateway to connect Organizers and Participants.
 
 
 
+## API Reference
+
+#### For the API access you need to have auth token which is only generated for admin users . You have to signup to the website and contact our team for the admin access , after that you can generate valid auth token for API requests 
+
+
+#### Get Authorization Token
+
+```http
+  POST /api/auth-token
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `username` | `string` | **Required**. your username |
+| `password` | `string` | **Required**. Your password|
+
+
+
+#### Get all events
+
+```http
+  GET /api/events-list
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `auth token` | `string` | **Required**. Your Auth token in header |
+
+#### Get event groups
+
+```http
+  GET /api/group-list
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `auth token`      | `string` | **Required**. Your auth token in header|
+
+
+
+  
+
+
+
 
   
 ## Run Locally
