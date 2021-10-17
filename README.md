@@ -1,5 +1,7 @@
-
-![Logo](https://i.imgur.com/j4ffLKS.png)
+<p align="center">
+     <img src="https://i.imgur.com/j4ffLKS.png" width="280px" height="100px"/>
+   
+</p>
 
 
 # Intro video:
